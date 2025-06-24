@@ -106,3 +106,63 @@ main>div {
      background-image: url('Image/back2.png');
      margin-top: 12px;
 }
+
+.main2-item {
+     font-size: 52px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-bottom: 16px;
+}
+
+.main2-items {
+     font-size: 24px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-bottom: 20px;
+}
+
+.main2-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+     padding-top: 0;
+}
+
+.button3 {
+     width: 123px;
+     height: 44px;
+     background-color: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+     border-radius: 99px;
+}
+
+.button4 {
+     width: 68px;
+     height: 44px;
+     border-radius: 999px;
+     border: 1px solid rgba(255, 255, 255, 1);
+     background-color: transparent;
+}
+
+.button3-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+}
+
+.button4-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+section {
+     background-color: rgba(245, 245, 247, 1);
+     width: 1920px;
+     height: 692px;
+     margin-top: 12px;
+}
