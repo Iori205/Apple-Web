@@ -1,0 +1,108 @@
+header {
+     display: flex;
+     gap: 24px;
+     align-items: center;
+     background-color: rgba(245, 245, 247, 0.8);
+     width: 1920px;
+     height: 44px;
+     justify-content: center;
+     text-decoration: none;
+     margin: 0 auto;
+}
+
+.head-item {
+     font-size: 12px;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 1);
+     font-family: inter;
+     text-decoration: none;
+}
+
+.icon {
+     width: 30px;
+     height: 44px;
+}
+
+nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 0;
+}
+
+nav span {
+     font-size: 14px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+}
+
+main {
+     background-image: url('Image/back1.png');
+     width: 1920px;
+     height: 692px;
+     margin: 0 auto;
+}
+
+main>div {
+     text-align: center;
+     padding-top: 55px;
+}
+
+.main-items {
+     font-size: 52px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-bottom: 16px;
+}
+
+.main-items2 {
+     font-size: 24px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-bottom: 20px;
+}
+
+.button1 {
+     width: 123px;
+     height: 44px;
+     border-radius: 999px;
+     background-color: rgba(0, 113, 227, 1);
+     border: 0;
+}
+
+.button2 {
+     width: 68px;
+     height: 44px;
+     background-color: transparent;
+     border: 1px solid rgba(41, 151, 255, 1);
+     border-radius: 999px;
+}
+
+.button1-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.button2-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(41, 151, 255, 1);
+}
+
+.main-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+     padding-top: 0;
+}
+
+.main-2 {
+     background-image: url('Image/back2.png');
+     margin-top: 12px;
+}
