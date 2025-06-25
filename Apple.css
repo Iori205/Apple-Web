@@ -176,3 +176,144 @@ section {
      background-size: cover;
      background-position: center;
 }
+
+section>div {
+     text-align: center;
+}
+
+.section-text {
+     font-size: 52px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+     padding-top: 446px;
+     padding-bottom: 12px;
+}
+
+.section-text1 {
+     font-size: 24px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+     padding-bottom: 16px;
+}
+
+.section-button {
+     width: 114px;
+     height: 44px;
+     background-color: rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     border: 0;
+}
+
+section span {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.article1 {
+     background-image: url('Image/ar1.png');
+     width: 942px;
+     height: 580px;
+}
+
+.article2 {
+     background-image: url('Image/ar2.png');
+     width: 942px;
+     height: 580px;
+}
+
+.article3 {
+     background-image: url('Image/ar3.png');
+     width: 942px;
+     height: 580px;
+}
+
+.article4 {
+     background-image: url('Image/ar4.png');
+     width: 942px;
+     height: 580px;
+}
+
+.article5 {
+     background-image: url('Image/ar5.png');
+     width: 942px;
+     height: 580px;
+}
+
+.article6 {
+     background-image: url('Image/ar6.png');
+     width: 942px;
+     height: 580px;
+}
+
+article>div {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 12px;
+     padding: 12px 12px;
+}
+
+.art-back1 {
+     padding-top: 58px;
+     text-align: center;
+     padding-bottom: 9px;
+}
+
+.art-back2 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+     text-align: center;
+}
+
+.art-button {
+     width: 115px;
+     height: 40px;
+     border-radius: 999px;
+     background-color: rgba(0, 113, 227, 1);
+     border: 0;
+}
+
+.art-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.art-button1 {
+     width: 68px;
+     height: 40px;
+     background-color: transparent;
+     border-radius: 999px;
+     border: 1px solid rgba(41, 151, 255, 1);
+}
+
+.art-text1 {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(41, 151, 255, 1);
+}
+
+.article-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+     padding-top: 20px;
+}
+
+.art-text2 {
+     font-size: 14px;
+     font-weight: 500;
+     font-family: inter;
+}
+
+.art-back3 {
+     padding-left: 386px;
+     padding-top: 324px;
+}
