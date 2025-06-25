@@ -1,13 +1,19 @@
+body {
+     width: 1920px;
+     margin: 0 auto;
+}
+
 header {
      display: flex;
      gap: 24px;
      align-items: center;
      background-color: rgba(245, 245, 247, 0.8);
-     width: 1920px;
      height: 44px;
      justify-content: center;
      text-decoration: none;
      margin: 0 auto;
+     background-size: cover;
+     background-position: center;
 }
 
 .head-item {
@@ -39,9 +45,10 @@ nav span {
 
 main {
      background-image: url('Image/back1.png');
-     width: 1920px;
      height: 692px;
      margin: 0 auto;
+     background-size: cover;
+     background-position: center;
 }
 
 main>div {
@@ -105,6 +112,8 @@ main>div {
 .main-2 {
      background-image: url('Image/back2.png');
      margin-top: 12px;
+     background-position: center;
+     background-size: cover;
 }
 
 .main2-item {
@@ -161,8 +170,9 @@ main>div {
 }
 
 section {
-     background-color: rgba(245, 245, 247, 1);
-     width: 1920px;
+     background-image: url('Image/back3.png');
      height: 692px;
      margin-top: 12px;
+     background-size: cover;
+     background-position: center;
 }
