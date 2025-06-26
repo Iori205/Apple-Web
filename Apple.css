@@ -1,6 +1,8 @@
 body {
-     width: 1920px;
+     max-width: 1920px;
      margin: 0 auto;
+     background-size: cover;
+     background-position: center;
 }
 
 header {
@@ -215,39 +217,61 @@ section span {
 
 .article1 {
      background-image: url('Image/ar1.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
+
 }
 
 .article2 {
      background-image: url('Image/ar2.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
 }
 
 .article3 {
      background-image: url('Image/ar3.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
 }
 
 .article4 {
      background-image: url('Image/ar4.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
+
 }
 
 .article5 {
      background-image: url('Image/ar5.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
 }
+
 
 .article6 {
      background-image: url('Image/ar6.png');
-     width: 942px;
+     width: calc(50% - 12px);
      height: 580px;
+     aspect-ratio: 16/9;
+     background-size: cover;
+     background-position: center;
 }
+
 
 article>div {
      display: flex;
@@ -314,6 +338,297 @@ article>div {
 }
 
 .art-back3 {
-     padding-left: 386px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      padding-top: 324px;
+}
+
+.art2-back {
+     font-size: 36px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-top: 401px;
+     padding-bottom: 2px;
+}
+
+.art2-back1 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(245, 245, 247, 1);
+     padding-bottom: 10px;
+}
+
+.art2-button {
+     width: 115px;
+     height: 40px;
+     background-color: rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     border: 0;
+}
+
+.art2-text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.art2-button1 {
+     width: 68px;
+     height: 40px;
+     border-radius: 999px;
+     border: 1px solid rgba(41, 151, 255, 1);
+     background-color: transparent;
+}
+
+.art2-text1 {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(41, 151, 255, 1);
+}
+
+.article2 {
+     text-align: center;
+}
+
+.article2-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+}
+
+.art3-ima {
+     width: 26.35px;
+     height: 32px;
+}
+
+.art3-back {
+     display: flex;
+     gap: 8px;
+     justify-content: center;
+}
+
+
+
+.art3-text {
+     font-size: 32px;
+     font-weight: 700;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+
+}
+
+.article3 {
+     text-align: center;
+}
+
+.art3-back {
+     padding-top: 58px;
+}
+
+.art3-back1 {
+     font-size: 15px;
+     font-weight: 700;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+     padding-bottom: 4px;
+}
+
+.art3-back2 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+     padding-bottom: 16px;
+}
+
+.article3-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+}
+
+.article3-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+}
+
+.art3-button {
+     width: 115px;
+     height: 40px;
+     background-color: rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     border: 0;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.art3-button1 {
+     width: 68px;
+     height: 40px;
+     border-radius: 999px;
+     border: 1px solid rgba(41, 151, 255, 1);
+     background-color: transparent;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(41, 151, 255, 1);
+
+}
+
+.article4 {
+     text-align: center;
+}
+
+.art4-back {
+     font-size: 36px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+     padding-top: 48px;
+     padding-bottom: 2px;
+}
+
+.art4-back1 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+     padding-bottom: 10px;
+}
+
+.art4-button {
+     width: 115px;
+     height: 40px;
+     background-color: rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     border: 0;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.art4-button1 {
+     width: 68px;
+     height: 40px;
+     border-radius: 999px;
+     border: 1px solid rgba(41, 151, 255, 1);
+     background-color: transparent;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(41, 151, 255, 1);
+}
+
+.article5 {
+     text-align: center;
+}
+
+.art5-ima {
+     width: 26px;
+     height: 32px;
+}
+
+.art5-back {
+     font-size: 32px;
+     font-weight: 700;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+     display: flex;
+     gap: 7px;
+     justify-content: center;
+     padding-bottom: 4px;
+     padding-top: 58px;
+}
+
+.art5-back1 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+}
+
+.art5-button {
+     width: 167px;
+     height: 40px;
+     border-radius: 999px;
+     border: 0;
+     background-color: rgba(0, 113, 227, 1);
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.article5-button {
+     padding-top: 16px;
+}
+
+.article6 {
+     text-align: center;
+}
+
+.art6-back {
+     font-size: 32px;
+     font-weight: 700;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1);
+     display: flex;
+     gap: 7px;
+     justify-content: center;
+     padding-bottom: 4px;
+     padding-top: 58px;
+}
+
+.art6-ima {
+     width: 26px;
+     height: 32px;
+}
+
+.art6-back1 {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(29, 29, 31, 1);
+}
+
+.article6-button {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+     padding-top: 16px;
+}
+
+.art6-button {
+     width: 118px;
+     height: 40px;
+     background-color: rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     border: 0;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+}
+
+.art6-button1 {
+     width: 112px;
+     height: 40px;
+     background-color: transparent;
+     border: 1px solid rgba(0, 113, 227, 1);
+     border-radius: 999px;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(0, 113, 227, 1);
+     ;
+
 }
