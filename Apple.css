@@ -632,3 +632,142 @@ article>div {
      ;
 
 }
+
+footer {
+     width: 100%;
+}
+
+.slides {
+     display: flex;
+     gap: 16px;
+     width: 100%;
+     scroll-snap-type: x proximity;
+     box-sizing: border-box;
+     overflow-x: scroll;
+
+}
+
+.slides::-webkit-scrollbar {
+     display: none;
+}
+
+.slides>div {
+     scroll-snap-align: center;
+}
+
+.slide {
+     width: 1250px;
+     height: 668px;
+}
+
+.list {
+     display: flex;
+     justify-content: center;
+     padding-top: 12px;
+}
+
+.list_type {
+     width: 220px;
+     height: 8px;
+}
+
+.footer_in {
+     position: relative
+}
+
+.footer_in2 {
+     position: absolute;
+     bottom: 58px;
+     left: 70px;
+     display: flex;
+     align-items: center;
+     gap: 20px;
+
+}
+
+.footer_button {
+     width: 133px;
+     height: 44px;
+     border-radius: 999px;
+     background-color: rgba(245, 245, 247, 1);
+     border: 0;
+     font-size: 17px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(0, 0, 0, 1)
+}
+
+.footer_text {
+     font-size: 17px;
+     font-weight: 700;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+     box-shadow: 0 0 5 rgba(0, 0, 0, 0.6);
+}
+
+footer span {
+     font-size: 17px;
+     font-weight: 400;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+     box-shadow: 0 0 5 rgba(0, 0, 0, 0.6);
+}
+
+.web_footer {
+     width: 100%;
+     padding-top: 12px;
+     padding-bottom: 56px;
+}
+
+.footer_head {
+     display: flex;
+     gap: 16px;
+     box-sizing: border-box;
+     overflow-x: scroll;
+     scroll-snap-type: x proximity;
+}
+
+.footer_head::-webkit-scrollbar {
+     display: none;
+}
+
+.footer_ima {
+     width: 417px;
+     height: 236px;
+}
+
+.footer_back {
+     scroll-snap-align: center;
+     position: relative;
+}
+
+.footer_text1 {
+     position: absolute;
+     font-size: 14px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+     left: 15px;
+     bottom: 20px;
+     width: 223px;
+}
+
+.footer_text2 {
+     font-size: 14px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+     position: absolute;
+     left: 226px;
+     top: 109px;
+}
+
+.footer_text3 {
+     font-size: 14px;
+     font-weight: 600;
+     font-family: inter;
+     color: rgba(255, 255, 255, 1);
+     position: absolute;
+     left: 15px;
+     bottom: 20px;
+}
