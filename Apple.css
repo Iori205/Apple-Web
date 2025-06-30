@@ -177,6 +177,7 @@ section {
      margin-top: 12px;
      background-size: cover;
      background-position: center;
+     margin-bottom: 12px;
 }
 
 section>div {
@@ -225,6 +226,7 @@ section span {
 
 }
 
+
 .article2 {
      background-image: url('Image/ar2.png');
      width: calc(50% - 12px);
@@ -272,12 +274,14 @@ section span {
      background-position: center;
 }
 
+article {
+     padding-left: 12px;
+}
 
 article>div {
      display: flex;
      flex-wrap: wrap;
      gap: 12px;
-     padding: 12px 12px;
 }
 
 .art-back1 {
@@ -635,6 +639,7 @@ article>div {
 
 footer {
      width: 100%;
+     margin-top: 12px;
 }
 
 .slides {
@@ -770,4 +775,146 @@ footer span {
      position: absolute;
      left: 15px;
      bottom: 20px;
+}
+
+.icon_tab {
+     display: none;
+}
+
+.art7 {
+     display: none;
+}
+
+.icon {
+     display: block;
+}
+
+@media (max-width:768px) {
+     .head-item {
+          display: none;
+     }
+
+     .icon_tab {
+          display: block;
+          width: 48px;
+          height: 48px;
+     }
+
+     .icon_tab1 {
+          width: 49px;
+          height: 48px;
+          flex-grow: 1;
+     }
+
+     nav {
+          width: 444px;
+          text-align: center;
+          padding: 12px 162px;
+     }
+
+     main {
+          background-image: url('Image/tablet_b1.jpg');
+     }
+
+     .main2-items {
+          font-size: 42px;
+     }
+
+     .main-items2 {
+          font-size: 22px;
+     }
+
+     .main2 {
+          background-image: url('Image/tablet_b2.png');
+     }
+
+     .main2-item {
+          font-size: 42px;
+     }
+
+     .main2-items {
+          font-size: 22px;
+     }
+
+     section {
+          display: none;
+     }
+
+     .art7 {
+          background-image: url('Image/Figure.png');
+          width: 366px;
+          height: 490px;
+          background-size: cover;
+          background-position: center;
+     }
+
+     .art7_back {
+          font-size: 30px;
+          font-weight: 700;
+          font-family: inter;
+          padding-top: 296px;
+          display: flex;
+          justify-content: center;
+
+     }
+
+     .art7_text {
+          font-size: 18px;
+          font-weight: 400;
+          font-family: inter;
+          color: rgba(29, 29, 31, 1);
+          width: 236px;
+          height: 60px;
+          text-align: center;
+          padding: 4px 65px;
+     }
+
+     .art7_button {
+          width: 126px;
+          height: 36px;
+          border-radius: 999px;
+          background-color: rgba(0, 113, 227, 1);
+          font-size: 14px;
+          font-weight: 400;
+          font-family: inter;
+          color: rgba(255, 255, 255, 1);
+          border: 0;
+          margin: 12px 120px;
+
+     }
+
+     .art7 {
+          display: block;
+     }
+
+     .article1 {
+          width: 768px;
+          height: 650px;
+          margin-top: 12px;
+
+     }
+
+     .art-back2 {
+          font-size: 22px;
+     }
+
+     .art-back3 {
+          padding-top: 367px;
+     }
+
+     .art-text2 {
+          font-size: 20px;
+          font-weight: 500;
+     }
+
+     .article2 {
+          background-image: url('Image/Figure\ copy.png');
+
+     }
+
+
+
+
+
+
 }
