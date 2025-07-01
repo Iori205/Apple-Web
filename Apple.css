@@ -794,6 +794,10 @@ footer span {
      display: none;
 }
 
+.text_tab {
+     display: none;
+}
+
 @media (max-width:768px) {
      .head-item {
           display: none;
@@ -817,7 +821,7 @@ footer span {
      }
 
      nav {
-          width: 444px;
+          max-width: 444px;
           text-align: center;
           padding: 12px 162px;
      }
@@ -1158,5 +1162,230 @@ footer span {
      .tab_foot_t {
           display: block;
      }
+
+     .footer_head {
+          display: none;
+     }
+
+     .tala0 {
+          background-image: url('Image/foot1.png');
+     }
+
+     .tala1 {
+          background-image: url('Image/foot2.png');
+     }
+
+     .tala2 {
+          background-image: url('Image/Background.png');
+     }
+
+     .tala3 {
+          background-image: url('Image/Background-2.png');
+     }
+
+     .tala4 {
+          background-image: url('Image/Background-3.png');
+     }
+
+     .tala5 {
+          background-image: url('Image/foot3.png');
+     }
+
+     .tala6 {
+          background-image: url('Image/foot4.png');
+     }
+
+     .tala7 {
+          background-image: url('Image/foot5.jpg');
+     }
+
+     .tab_la {
+          width: 286px;
+          height: 161px;
+          flex-shrink: 0;
+          background-size: contain;
+          background-position: center;
+     }
+
+     .tab_last {
+          display: flex;
+          gap: 16px;
+          overflow-x: scroll;
+          padding-bottom: 12px;
+     }
+
+     .tab_last::-webkit-scrollbar {
+          display: none;
+     }
+
+     .text_tab {
+          display: block;
+          font-size: 14px;
+          font-weight: 700;
+          color: rgba(29, 29, 31, 1);
+          font-family: inter;
+          padding-top: 15px;
+     }
+}
+
+@media (max-width:390px) {
+     nav {
+          width: 328px;
+          padding: 18px 31px;
+     }
+
+     main {
+          background-image: url('Image/phone1.jpg');
+          width: 390px;
+          height: 500px;
+     }
+
+     .main-items {
+          font-size: 30px;
+          padding-bottom: 4px;
+     }
+
+     .main-items2 {
+          font-size: 18px;
+          padding-bottom: 16px;
+     }
+
+     .button1 {
+          width: 107px;
+          height: 36px;
+     }
+
+     .button1-text {
+          font-size: 14px;
+     }
+
+     .button2 {
+          width: 66px;
+          height: 36px;
+     }
+
+     .button2-text {
+          font-size: 14px;
+     }
+
+     .hog {
+          padding-top: 350px;
+     }
+
+     .main-2 {
+          background-image: url('Image/phone2.png');
+          width: 390px;
+          height: 500px;
+     }
+
+     .main2-item {
+          font-size: 30px;
+          padding-bottom: 4px;
+     }
+
+     .main2-items {
+          font-size: 18px;
+          padding-bottom: 16px;
+     }
+
+     .button3 {
+          width: 107px;
+          height: 36px;
+     }
+
+     .button4 {
+          width: 66px;
+          height: 36px;
+     }
+
+     .button3-text {
+          font-size: 14px;
+     }
+
+     .button4-text {
+          font-size: 14px;
+     }
+
+     .article2 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .article3 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .article4 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .article5 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .article6 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .art7 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .ip1 {
+          background-image: url('Image/Tabpanel.png');
+     }
+
+     .ip2 {
+          background-image: url('Image/Tabpanel-2.png');
+     }
+
+     .ip3 {
+          background-image: url('Image/Tabpanel-3.png');
+     }
+
+     .ip4 {
+          background-image: url('Image/Tabpanel-4.png');
+     }
+
+     .ip5 {
+          background-image: url('Image/Tabpanel-5.png');
+     }
+
+     .ip6 {
+          background-image: url('Image/Tabpanel-6.png');
+     }
+
+     .ip7 {
+          background-image: url('Image/Tabpanel-7.pngs');
+     }
+
+     .ip8 {
+          background-image: url('Image/Tabpanel-8.png');
+     }
+
+     .phone_foo {
+          width: 274px;
+          height: 495px;
+          background-size: contain;
+          background-position: center;
+     }
+
+     .footer_in {
+          display: none;
+     }
+
+     .p_footer {
+          display: flex;
+          gap: 16px;
+     }
+
+
+
+
 
 }
