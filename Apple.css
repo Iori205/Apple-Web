@@ -218,7 +218,7 @@ section span {
 
 .article1 {
      background-image: url('Image/ar1.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
@@ -229,7 +229,7 @@ section span {
 
 .article2 {
      background-image: url('Image/ar2.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
@@ -238,7 +238,7 @@ section span {
 
 .article3 {
      background-image: url('Image/ar3.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
@@ -247,7 +247,7 @@ section span {
 
 .article4 {
      background-image: url('Image/ar4.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
@@ -257,7 +257,7 @@ section span {
 
 .article5 {
      background-image: url('Image/ar5.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
@@ -267,15 +267,11 @@ section span {
 
 .article6 {
      background-image: url('Image/ar6.png');
-     width: calc(50% - 12px);
+     width: calc(50% - 6px);
      height: 580px;
      aspect-ratio: 16/9;
      background-size: cover;
      background-position: center;
-}
-
-article {
-     padding-left: 12px;
 }
 
 article>div {
@@ -283,6 +279,7 @@ article>div {
      flex-wrap: wrap;
      gap: 12px;
 }
+
 
 .art-back1 {
      padding-top: 58px;
@@ -353,7 +350,7 @@ article>div {
      font-weight: 600;
      font-family: inter;
      color: rgba(245, 245, 247, 1);
-     padding-top: 401px;
+     padding-top: 365px;
      padding-bottom: 2px;
 }
 
@@ -789,6 +786,14 @@ footer span {
      display: block;
 }
 
+.tab_art6 {
+     display: none;
+}
+
+.tab_foot_t {
+     display: none;
+}
+
 @media (max-width:768px) {
      .head-item {
           display: none;
@@ -801,9 +806,14 @@ footer span {
      }
 
      .icon_tab1 {
-          width: 49px;
+          text-align: center;
           height: 48px;
+          display: flex;
           flex-grow: 1;
+     }
+
+     header {
+          gap: 0;
      }
 
      nav {
@@ -909,12 +919,244 @@ footer span {
 
      .article2 {
           background-image: url('Image/Figure\ copy.png');
+          width: 366px;
+          height: 490px;
+          margin-left: 12px;
 
      }
 
+     .art2-back {
+          display: none;
+     }
+
+     .art2-back1 {
+          display: none;
+     }
+
+     .tab_art {
+          font-size: 30px;
+          font-weight: 700;
+          font-family: inter;
+          color: rgba(245, 245, 247, 1);
+          padding-top: 287px;
+          padding-bottom: 4px;
+
+     }
+
+     .tab_art1 {
+          font-size: 18px;
+          font-weight: 400;
+          font-family: inter;
+          color: rgba(245, 245, 247, 1);
+          padding-bottom: 16px;
+          width: 241px;
+          padding-left: 63px;
+
+     }
+
+     .art2-button {
+          width: 107px;
+          height: 36px;
+     }
+
+     .art2-text {
+          font-size: 14px;
+     }
+
+     .art2-button1 {
+          width: 66px;
+          height: 36px;
+     }
+
+     .art2-text1 {
+          font-size: 14px;
+     }
+
+     .article3 {
+          background-image: url('Image/Figure\ \(1\).png');
+          width: 366px;
+          height: 490px;
+     }
+
+     .art3-ima {
+          width: 22px;
+          height: 27px;
+     }
+
+     .art3-text {
+          font-size: 28px;
+     }
+
+     .art3-back1 {
+          font-size: 13px;
+     }
+
+     .art3-button {
+          width: 107px;
+          height: 36px;
+          font-size: 14px;
+     }
+
+     .art3-button1 {
+          width: 66px;
+          height: 36px;
+          font-size: 14px;
+
+     }
+
+     .art4-back {
+          font-size: 30px;
+     }
+
+     .art4-button {
+          width: 107px;
+          height: 36px;
+          font-size: 14px;
+     }
+
+     .art4-button1 {
+          width: 66px;
+          height: 36px;
+          font-size: 14px;
+     }
+
+     .article4 {
+          width: 366px;
+          height: 490px;
+          margin-left: 12px;
+     }
+
+     .article6 {
+          background-image: url('Image/Figure\ \(2\).png');
+          width: 366px;
+          height: 490px;
+          margin-left: 12px;
+     }
 
 
+     .article5 {
+          width: 366px;
+          height: 490px;
+     }
 
+     .art5-back {
+          font-size: 28px;
+     }
 
+     .art5-ima {
+          width: 22px;
+          height: 27px;
+     }
+
+     .art5-button {
+          width: 150px;
+          height: 36px;
+          font-size: 14px;
+     }
+
+     .non {
+          display: none;
+     }
+
+     .tab_art6 {
+          display: block;
+
+     }
+
+     .tab_art6_back {
+          font-size: 30px;
+          font-family: inter;
+          font-weight: 700;
+          color: rgba(29, 29, 31, 1);
+          width: 250px;
+          text-align: center;
+          padding-top: 42px;
+          padding-left: 55px;
+          padding-bottom: 4px;
+     }
+
+     .tab_art6_back1 {
+          font-size: 18px;
+          font-weight: 400;
+          font-family: inter;
+          color: rgba(29, 29, 31, 1);
+          width: 250px;
+          padding-bottom: 16px;
+          padding-left: 62px;
+     }
+
+     .tab_art6_button {
+          width: 107px;
+          height: 36px;
+          border-radius: 999px;
+          background-color: rgba(0, 113, 227, 1);
+          border: 0;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 1);
+          font-weight: 400;
+          font-family: inter;
+     }
+
+     .slide {
+          display: none;
+     }
+
+     .slide0 {
+          background-image: url('Image/tab_foot1.jpg');
+          min-width: 689px;
+          height: 368px;
+          position: relative;
+     }
+
+     .slide1 {
+          background-image: url('Image/tab_foor2.jpg');
+          min-width: 689px;
+          height: 368px;
+     }
+
+     .tab_slide {
+          overflow-x: scroll;
+
+     }
+
+     .footer_in0 {
+          display: none;
+     }
+
+     .tab_foot_b {
+          width: 108px;
+          height: 36px;
+          font-size: 14px;
+
+     }
+
+     .footer_in2 {
+          bottom: 27px;
+          left: 30px;
+     }
+
+     .footer_text {
+          display: none;
+     }
+
+     .tab_foot_t {
+          font-size: 17px;
+          font-weight: 400;
+          font-family: inter;
+          color: rgba(255, 255, 255, 1);
+          width: 401px;
+          box-shadow: rgba(0, 0, 0, 0.6);
+     }
+
+     .ta {
+          font-size: 17px;
+          font-weight: 700;
+          color: rgba(255, 255, 255, 1);
+          box-shadow: rgba(0, 0, 0, 0.6);
+     }
+
+     .tab_foot_t {
+          display: block;
+     }
 
 }
