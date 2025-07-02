@@ -1,0 +1,131 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background-color: rgba(245, 245, 247, 0.8);
+    height: 44px;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-item {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-family: inter;
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 44px;
+}
+
+.word {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(29, 29, 31, 1);
+    padding: 20px 652px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.color {
+    background-image: url('Ima/Background.png');
+    height: 75px;
+}
+
+.head {
+    height: 260px;
+    background-color: rgba(245, 245, 247, 1);
+    position: relative;
+}
+
+.Store {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.01px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    background-image: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.01px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: rgba(110, 110, 115, 1);
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    padding: 80px 0;
+    padding-left: 140px;
+}
+
+.red {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: rgba(29, 29, 31, 1);
+    width: 147px;
+    height: 40px;
+}
+
+.red_ {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: rgba(0, 102, 204, 1);
+}
+
+.reds {
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+}
+
+.red1 {
+    padding-top: 16px;
+
+}
+
+.lawlah {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 160px;
+}
+
+.non {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

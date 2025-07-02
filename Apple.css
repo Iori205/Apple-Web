@@ -336,6 +336,9 @@ article>div {
      font-size: 14px;
      font-weight: 500;
      font-family: inter;
+     background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 
 .art-back3 {
@@ -343,6 +346,7 @@ article>div {
      justify-content: center;
      align-items: center;
      padding-top: 324px;
+
 }
 
 .art2-back {
@@ -795,6 +799,10 @@ footer span {
 }
 
 .text_tab {
+     display: none;
+}
+
+.cancel {
      display: none;
 }
 
@@ -1283,6 +1291,10 @@ footer span {
           padding-bottom: 4px;
      }
 
+     main>div {
+          padding-top: 36px;
+     }
+
      .main2-items {
           font-size: 18px;
           padding-bottom: 16px;
@@ -1361,7 +1373,7 @@ footer span {
      }
 
      .ip7 {
-          background-image: url('Image/Tabpanel-7.pngs');
+          background-image: url('Image/Tabpanel-7.png');
      }
 
      .ip8 {
@@ -1371,7 +1383,6 @@ footer span {
      .phone_foo {
           width: 274px;
           height: 495px;
-          background-size: contain;
           background-position: center;
      }
 
@@ -1384,8 +1395,99 @@ footer span {
           gap: 16px;
      }
 
+     .article2 {
+          margin: 0;
+     }
 
+     .article4 {
+          margin: 0;
+     }
 
+     .article6 {
+          margin: 0;
+     }
 
+     .phone_i1 {
+          background-image: url('Image/pho2.png');
+     }
+
+     .phone_i2 {
+          background-image: url('Image/pho1.jpg');
+     }
+
+     .ima1 {
+          width: 238px;
+          height: 134px;
+     }
+
+     .phone_text {
+          font-size: 12px;
+          font-weight: 700;
+          font-family: inter;
+          color: rgba(29, 29, 31, 1);
+          padding-top: 10px;
+     }
+
+     .tab_la {
+          width: 238px;
+          height: 134px;
+     }
+
+     .text_tab {
+          font-size: 12px;
+          padding-top: 10px;
+     }
+
+     .cancel {
+          display: block;
+     }
+
+     .article1 {
+          width: 390px;
+          height: 500px;
+     }
+
+     .art-back1 {
+          width: 180px;
+          height: 41.86px;
+          padding-top: 36px;
+          padding-bottom: 8px;
+     }
+
+     .art-back2 {
+          font-size: 18px;
+          font-weight: 400;
+          font-family: inter;
+     }
+
+     .art-button {
+          width: 107px;
+          height: 36px;
+     }
+
+     .art-text {
+          font-size: 14px;
+     }
+
+     .art-button1 {
+          width: 66px;
+          height: 36px;
+     }
+
+     .art-text1 {
+          font-size: 14px;
+     }
+
+     .article-button {
+          padding-top: 16px;
+     }
+
+     .art-back3 {
+          padding-top: 276px;
+     }
+
+     .art-text2 {
+          font-size: 14px;
+     }
 
 }
