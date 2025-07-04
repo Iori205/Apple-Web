@@ -864,7 +864,7 @@ footer span {
 
      .art7 {
           background-image: url('Image/Figure.png');
-          width: 366px;
+          max-width: 366px;
           height: 490px;
           background-size: cover;
           background-position: center;
@@ -1047,7 +1047,7 @@ footer span {
 
 
      .article5 {
-          width: 366px;
+          max-width: 366px;
           height: 490px;
      }
 
@@ -1115,14 +1115,14 @@ footer span {
 
      .slide0 {
           background-image: url('Image/tab_foot1.jpg');
-          min-width: 689px;
+          width: 689px;
           height: 368px;
           position: relative;
      }
 
      .slide1 {
           background-image: url('Image/tab_foor2.jpg');
-          min-width: 689px;
+          width: 689px;
           height: 368px;
      }
 
